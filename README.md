@@ -15,7 +15,7 @@ This is a project for my learning and progression with various web technologies,
 
 
 - [ ] Optimize for mobile
-- [ ] Add a more child frindly ui
+- [ ] Add a more child friendly ui
 - [ ] Display larger information
 
 ###More ideas
