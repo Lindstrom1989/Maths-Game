@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Math Game</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/devstyles.css">
+        <!-- Font -->
+        <link href='http://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,600,800,600italic,300|Libre+Baskerville' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <nav id="main-nav">
+            <div class="nav-item menu-trigger"><img src="img/menu.png" onclick="showMenu()"></div>
+            <div class="nav-item logo">Maths Game</div>
+            <div class="nav-item level-container">Level <span class="level"></span></div>
+            <div class="nav-item timer">Time left: <span class="time"></span></div>
+            <div class="nav-item target-container">Target: <span class="target"></span></div>
+            <div class="nav-item moves-container">Moves: <span class="moves"></span></div>
+            <div class="nav-item total-container">Total: <span class="total"></span></div>
+        </nav>
+        <div id="menu">
+            <div class="menu-message">
+                <h1>MAIN MENU</h1>
+                <button class="****" onclick="hideOverlay()">SOMETHING</button>
+                <button class="restart-button" onclick="startAgain()">START AGAIN</button>
+                <button class="retry-button" onclick="retry()">RETRY</button>
+                <button class="close-button" onclick="hideMenu()">CLOSE</button>
+                <p>To play the game look at the target in the top bar and drag the blue numbers into the multiplier rings until you reach your target. Be carefull not to run out of time, use up all your moves or go over target! good luck!</p>
+            </div>
+        </div>
+        <div id="overlay">
+            <div class="message">
+                <h1>HELLO TESTING OVERLAY!</h1>
+                <!-- <button class="quit-button" onclick="hideOverlay()">QUIT</button> -->
+                <button class="restart-button" onclick="startAgain()">START AGAIN</button>
+                <button class="retry-button" onclick="retry()">RETRY</button>
+                <button class="next-level-button" onclick="nextLevel()">NEXT LEVEL</button>
+            </div>
+        </div>
+        <!-- <h1>Maths Game</h1> -->
+        <div class="content">
+            <div id="number-holder">
+           
+            </div>
+
+            <div id="multiplier-holder">
+           
+            </div>
+
+            <div id="message">
+           
+            </div>
+        </div> 
+        <!-- <button class="reset-button" onclick="resetLevel()">RESET TOTAL</button> -->
+    <!-- JS -->
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="js/jquery.ui.touch-punch.js"></script>
+        <script src="js/game.js"></script>
+    </body>
+</html>

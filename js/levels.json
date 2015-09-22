@@ -1,0 +1,58 @@
+{
+	"level1" : {
+		"numbers" : [2, 5, 7, 8, 7, 5],
+		"multipliers" : [2, 5, 7, 8, 7, 5],
+		"target" : 45,
+		"timer" : 3,
+		"moves" : 5
+	},
+	"level2" : {
+		"numbers" : [20, 50, 70, 80, 70, 50],
+		"multipliers" : [2, 5, 7, 8, 3, 4],
+		"target" : 300,
+		"timer" : 2,
+		"moves" : 3
+	},
+	"level3" : {
+		"numbers" : [2, 7, 8, 7, 5],
+		"multipliers" : [5, 7, 8],
+		"target" : 130,
+		"timer" : 4,
+		"moves" : 5
+	},
+	"level4" : {
+		"numbers" : [10, 20, 5, 2],
+		"multipliers" : [2, 4, 5],
+		"target" : 150,
+		"timer" : 2,
+		"moves" : 3
+	},
+	"level5" : {
+		"numbers" : [5, 7, 8, 7, 8],
+		"multipliers" : [7, 8, 5],
+		"target" : 240,
+		"timer" : 3,
+		"moves" : 5
+	},
+	"level6" : {
+		"numbers" : [20, 3, 8, 3, 5],
+		"multipliers" : [2, 5, 20, 8, 5],
+		"target" : 175,
+		"timer" : 2,
+		"moves" : 5
+	},
+	"level7" : {
+		"numbers" : [2, 5, 7, 25],
+		"multipliers" : [6, 5, 7, 2, 7, 4],
+		"target" : 82,
+		"timer" : 3,
+		"moves" : 5
+	},
+	"level8" : {
+		"numbers" : [5, 20, 11, 7, 5, 32],
+		"multipliers" : [2, 4, 3],
+		"target" : 133,
+		"timer" : 4,
+		"moves" : 5
+	}
+}
